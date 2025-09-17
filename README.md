@@ -27,11 +27,11 @@ Our work introduces some **symmetric-diagonal reduction preprocessing technique*
 
 ## 📊 Figures
 <p align="center">
-  <img src="figures/fig1.png" width="600" alt="Spectral clustering example">
+  <img src="figures/fig1.png" width="800" alt="Spectral clustering example">
 </p>
 
 <p align="center">
-  <img src="figures/fig2.png" width="600" alt="Convergence comparison">
+  <img src="figures/fig2.png" width="800" alt="Convergence comparison">
 </p>
 
 ---
