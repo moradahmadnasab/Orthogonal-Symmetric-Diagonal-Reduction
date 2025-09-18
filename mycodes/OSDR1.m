@@ -1,7 +1,7 @@
 function [XX,ei111] = OSDR1(A,B)
 % OSDR1 is an implementation of Algorithm 1 
-% from M. Ahmadnasab, Symmetric-diagonal reductions as preprocessing for symmetric positive definite
-% generalized eigenvalue solvers, Journal of Mathematical Modeling, 11 (2023) 301-322. which is used with 
+% from "M. Ahmadnasab, Symmetric-diagonal reductions as preprocessing for symmetric positive definite
+% generalized eigenvalue solvers, Journal of Mathematical Modeling, 11 (2023) 301-322.",  which is used with 
 % the same name in the numerical experiment section of the paper. 
 % Inputs: Square matrices A and B with the same size.
 % Outputs: Eigenpair set of (A,B), namely, XX for the set of eigenvectors 
@@ -46,6 +46,7 @@ ei111= diag(eigM);
 
 XX=u1*X;
 end
+
 
 
 
