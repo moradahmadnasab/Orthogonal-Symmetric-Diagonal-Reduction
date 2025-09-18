@@ -1,6 +1,8 @@
 function [XX,ei111] = RSSEP1(A,B)
-% RSSEP1 is an implementation of Algorithm 2 which is used with 
-% the same name in the numerical experiment section of the associated paper.   
+% RSSEP1 is an implementation of Algorithm 2 
+% from "M. Ahmadnasab, Symmetric-diagonal reductions as preprocessing for symmetric positive definite
+% generalized eigenvalue solvers, Journal of Mathematical Modeling, 11 (2023) 301-322.", which is used with 
+% the same name in the numerical experiment section of the paper.   
 % Inputs: Square matrices A and B with the same size.
 % Outputs: Eigenpair set of (A,B), namely, XX for eigenvectors and ei111 for eigenvalues.
 % Written by :Morad Ahmadnasab, 5/10/2022, university of Kurdistan, Sanandaj, Iran.
@@ -49,5 +51,6 @@ end
 ei111=diag(eigM);
 XX=(u1*s2)*X;
 end
+
 
 
