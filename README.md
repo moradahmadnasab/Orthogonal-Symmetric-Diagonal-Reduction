@@ -3,8 +3,8 @@
 This repository presents a short showcase of the method introduced in our paper:
 
 **"Symmetric-diagonal reductions as preprocessing for symmetric positive definite generalized solvers"**  
-Morad Ahmadnasab, [Journal Name, Year].  
-[DOI / Publisher Link]
+Morad Ahmadnasab, [Journal of Mathematical Modeling, 2023].  
+[DOI: 10.22124/JMM.2023.23734.2120 ]
 
 ---
 
