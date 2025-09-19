@@ -5,7 +5,7 @@ function [XX,ei111] = RSSEP1(A,B)
 % the same name in the numerical experiment section of the paper.   
 % Inputs: Square matrices A and B with the same size.
 % Outputs: Eigenpair set of (A,B), namely, XX for eigenvectors and ei111 for eigenvalues.
-% Written by :Morad Ahmadnasab, 5/10/2022, university of Kurdistan, Sanandaj, Iran.
+% Written by: Morad Ahmadnasab, 5/10/2022, University of Kurdistan, Sanandaj, Iran.
 %%%%%%%%%%%
 
 %%%% Step 1:
@@ -51,6 +51,7 @@ end
 ei111=diag(eigM);
 XX=(u1*s2)*X;
 end
+
 
 
 
