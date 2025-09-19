@@ -6,7 +6,7 @@ function [XX,ei111] = OSDR1(A,B)
 % Inputs: Square matrices A and B with the same size.
 % Outputs: Eigenpair set of (A,B), namely, XX for the set of eigenvectors 
 % and ei111 for the set of eigenvalues.
-% Written by :Morad Ahmadnasab, 5/10/2022, University of Kurdistan, Sanandaj, Iran.
+% Written by: Morad Ahmadnasab, 5/10/2022, University of Kurdistan, Sanandaj, Iran.
 %%%%%%%%%%%
 
 %%%% Step 1:
@@ -46,6 +46,7 @@ ei111= diag(eigM);
 
 XX=u1*X;
 end
+
 
 
 
