@@ -4,7 +4,8 @@ function [XX,ei111] = RSSEP1(A,B)
 % generalized eigenvalue solvers, Journal of Mathematical Modeling, 11 (2023) 301-322.", which is used with 
 % the same name in the numerical experiment section of the paper.   
 % Inputs: Square matrices A and B with the same size.
-% Outputs: Eigenpair set of (A,B), namely, XX for eigenvectors and ei111 for eigenvalues.
+% Outputs: Eigenpair set of (A,B), namely, XX for eigenvectors and 
+% a diagonal matrix ei111 from the set of eigenvalues.
 % Written by: Morad Ahmadnasab, 5/10/2022, University of Kurdistan, Sanandaj, Iran.
 %%%%%%%%%%%
 
@@ -44,13 +45,14 @@ end
 
 %%%% Step 3:
 
-[X,eigM]=eig(aa);
+[X,ei111]=eig(aa);
 
 %%%% Step 4: 
 
-ei111=diag(eigM);
 XX=(u1*s2)*X;
+
 end
+
 
 
 
